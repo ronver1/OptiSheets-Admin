@@ -1,0 +1,14 @@
+[
+  {
+    "input": {
+      "applications": [
+        { "company": "NVIDIA", "role": "SWE Intern", "status": "Applied", "location": "Austin", "notes": "Referred by alumni", "next_action": "Follow up in 5 days" }
+      ]
+    },
+    "expected_output_shape": {
+      "summary": "string",
+      "priorities": [{ "title": "string", "why": "string", "actions": ["string"] }],
+      "application_insights": [{ "company": "string", "role": "string", "recommendations": ["string"] }]
+    }
+  }
+]
